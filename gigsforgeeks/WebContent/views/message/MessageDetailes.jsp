@@ -88,8 +88,7 @@
 				         	<b>메세지를 정말로 삭제하시겠습니까?</b>
 				         	<br>            
 	                     	<a href="${contextPath}/delete.ms?nno=<%=m.getMessageNo()%>" class="btn btn-info">OK</a>
-		                 	<button type="button" class="btn btn-outline-info">Cancel</button>
-		                 </div>  
+		                 	<a type="button" href="${contextPath}/detail.ms?nno=<%=m.getMessageNo()%>" class="btn btn-outline-info">Cancel</a>
 				    </div>
 			    </div>
 			</div>	           
